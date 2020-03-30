@@ -1,0 +1,25 @@
+.site-banner{
+    /* position: relative; */
+}
+.site-banner .banner-area{
+/* background: url(../assets/Banner_image.jpg) no-repeat; */
+/* background-color:white;
+background-size: cover; */
+
+width:100%;
+height: 100vh;
+position: relative;
+}
+.site-banner .banner-area .author{
+    margin: 15px;
+padding: 25px;
+    }
+    
+.site-banner .banner-area .author .author-img{
+    width: 400px;
+    height: 150px;
+    margin:auto;
+    background: url(../assets/output-onlinejpgtools.png) no-repeat;
+    background-size: 100%;
+    background-position: 80% 0;
+    }
