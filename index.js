@@ -25,7 +25,8 @@
 var typed = new Typed('#typed' , {
     strings: [
         'Student Fontys ICT',
-        'Freelancer'
+        'Freelancer',
+        'DesigNerd'
     ],
     typeSpeed: 50,
     backSpeed: 50,
@@ -35,7 +36,8 @@ var typed = new Typed('#typed' , {
 var typed = new Typed('#typed_2' , {
     strings: [
         'Student Fontys ICT',
-        'Freelancer'
+        'Freelancer',
+        'DesigNerd'
     ],
     typeSpeed: 50,
     backSpeed: 50,
