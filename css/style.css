@@ -13,6 +13,8 @@ html, body {
 body{
     margin: 0;
     line-height: 1.6;
+    width: 100%;
+    overflow: hidden;
 }
 
 :root{
@@ -155,7 +157,6 @@ background-color: blue;
     padding: 7px;
 }
 .si-wrapper:hover{
-background-color: rgb(255, 148, 184);
 }
 @media screen and (max-width:950px){
     
@@ -189,17 +190,73 @@ background-color: rgb(255, 148, 184);
         width: 360px;
         height: 500px;
     }
+    /* section,footer{
+        scroll-snap-align:none;
+    } */
+    .skillsImg{
+        width: 100%;
+    }
+  }
+  .skillsImg{
+    width:70%;
+    margin: 0 auto;
   }
   section,footer{
       width:100%;
       height: 100%;
-      scroll-snap-align:start;
+      /* scroll-snap-align:start; */
   }
   .container1{
-      
     width:100%;
     height: 100%;
     overflow-y: scroll;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
+  }
+  .illustrations-container{
+      margin: .5vw;
+      display: -ms-flexbox;
+      -ms-flex-wrap: wrap;
+      -ms-flex-direction: column;
+      -webkit-flex-flow: row wrap;
+      flex-flow: row wrap;
+      display:-webkit-box;
+      display: flex;
+  }
+  .illustrations-container div{
+      -webkit-box-flex:auto;
+      -ms-flex:auto;
+      flex:auto;
+      width:200px;
+      margin:.5vw;
+  }
+
+  .illustrations-container div img{
+
+    width: 100%;
+    height:auto;
+
+  }
+
+  .column{
+      width: 25%;
+      float:left;
+      padding:0px 10px;
+  }
+  .row::after{
+      content:"";
+      display:table;
+      clear:both;
+  }
+  .card{
+      box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+      max-width: 300px;
+      margin:auto;
+      background-color: white;
+      text-align: center;
+      border-radius: 40px;
+      padding-bottom: 15px;
+  }
+  .aboutImg:hover{
+      padding: 30px;
   }
