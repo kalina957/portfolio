@@ -175,7 +175,12 @@ background-color: blue;
   .contact{
     background-color: #000000;
 }
-  @media only screen and (max-width: 600px) {
+.skillsimg{
+    height: 100%;
+    width: 100%;
+    padding: 0 20%;
+  } 
+@media only screen and (max-width: 600px) {
     .navbar > ul > li {
         margin: 6px;
         
@@ -190,17 +195,14 @@ background-color: blue;
         width: 360px;
         height: 500px;
     }
-    /* section,footer{
-        scroll-snap-align:none;
-    } */
-    .skillsImg{
-        width: 100%;
+    .skillsimg{
+        padding:0px;
+    }
+    .form-contact{
+        padding:0;
     }
   }
-  .skillsImg{
-    width:70%;
-    margin: 0 auto;
-  }
+ 
   section,footer{
       width:100%;
       height: 100%;
@@ -227,8 +229,8 @@ background-color: blue;
       -webkit-box-flex:auto;
       -ms-flex:auto;
       flex:auto;
-      width:200px;
-      margin:.5vw;
+      width:180px;
+      margin:.7vw;
   }
 
   .illustrations-container div img{
@@ -257,6 +259,41 @@ background-color: blue;
       border-radius: 40px;
       padding-bottom: 15px;
   }
-  .aboutImg:hover{
+  /* .aboutImg:hover{
       padding: 30px;
+  } */
+  .imageBox {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  
+  .imageBox .hoverImg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+  }
+  
+  .imageBox:hover .hoverImg {
+    display: block;
+  }
+  #site-main{
+    background-color: #000000;
+  }
+
+  .container1 {
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+.container1::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+.illustrationImg{
+    transition: transform .4s;
+  }
+  .illustrationImg:hover {
+    transform: scale(1.1); 
   }
