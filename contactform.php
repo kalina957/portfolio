@@ -30,7 +30,6 @@ if(isset($_POST['submit']))
 }
 else
 {
-    echo "<script type='text/javascript'>";
     echo "window.history.go(-1)"; 
     echo "</script>";
     //if the close button is clicked

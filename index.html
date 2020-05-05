@@ -7,6 +7,7 @@
     <link rel="icon" href="./assets/name.jpg">
     <title>Kalina Atanasova</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"> 
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/main.css">
@@ -19,12 +20,12 @@
     <div class="container1">
 <nav class="navbar font-size-27 p-3" style="display: flex; justify-content: space-between; align-items: center;width: 100%;">
     <ul class="" style="" id="menu">
-        <li class="p-0"><a href="#home1" style="color: white;" class="font-pl" >Home</a></li>
-        <li class="p-0"><a href="#about" style="color: white;"  class="font-pl">About</a></li>
-        <li class="p-0"><a href="#skills" style="color: white;"  class="font-pl">Skills</a></li>
-        <li class="p-0"><a href="#projects" style="color: white;"  class="font-pl">Projects</a></li>
-        <li class="p-0"><a href="#illustrations" style="color: white;"  class="font-pl">Illustrations</a></li>
-        <li class="p-0"><a href="#contact" style="color: white;"  class="font-pl">Contact</a></li>
+        <li class="p-0"><a href="#home1" class="font-pl" >Home</a></li>
+        <li class="p-0"><a href="#about" class="font-pl">About</a></li>
+        <li class="p-0"><a href="#skills" class="font-pl">Skills</a></li>
+        <li class="p-0"><a href="#projects"  class="font-pl">Projects</a></li>
+        <li class="p-0"><a href="#illustrations"  class="font-pl">Illustrations</a></li>
+        <li class="p-0"><a href="#contact"  class="font-pl">Contact</a></li>
     </ul>
     
 </nav>
@@ -32,14 +33,13 @@
     <div id="site-main" class="" style="color:white;" >
         
     <section class="site-banner py-5 " id="home" >
-         <div class="banner-area" style="">
-            <div style="" id="home1">
+         <div class="banner-area" >
+            <div id="home1">
                 <div>
                     <img src="./assets/az.jpg" style="width: 100%;">
                 </div>
                 <div>
                   <img src="./assets/lg.jpg" style="width:100%"/>
-                  <!-- <video src="./assets/Comp 1.avi"></video> -->
                 </div>
         </div> 
     </section>
@@ -49,16 +49,16 @@
 <div class="me py-5">
     <h5 class="text-uppercase font-staat font-size-34 ">Who's that girl?</h5> 
 </div>
-<div class="row m-0" style="display: flex;justify-content: space-between;">
-    <div class="col-sm-4 pl-0 imageBox">
-            <div class="imageInn" >
-              <img src="./assets/k.jpg" alt="Default Image" style="height: 420px;display: block;">
+<div class="row m-0" style="display: flex; justify-content: space-between;">
+    <div class=" p-0 imageBox" style="width: fit-content;height: fit-content;">
+            <div class="imageInn" style="width: fit-content;">
+              <img src="./assets/k.jpg" alt="Default Image" style="height: 420px;display: block;margin: 0px;padding:0px;">
             </div>
             <div class="hoverImg">
               <img src="./assets/az-bw.jpg" alt="Profile Image" style="height: 420px;display: block;margin-left: auto;margin-right: auto;">
             </div>
     </div>
-    <div class="col-sm-7">
+    <div class="col-sm-7 py-5">
         <h5><strong>Hello!</strong></h5>
        
         <p class="font-inter py-2" >I'm Kalina Atanasova, creative junkie with a curious mind, originally from Bulgaria but currently based in the Netherlands.
@@ -75,7 +75,7 @@
      <!--skills-->
      <section class="skillbg-light" id="skills"  style="padding: 40px 10%;">
         <div class="ability py-3">
-            <h5 class="text-uppercase font-staat font-size-34 ">What are my weapons?</h5>
+            <h5 class="text-uppercase font-staat font-size-34 ">What are my stenghts?</h5>
         </div>
         <div class="row">
           <img src="./assets/pathh.jpg" alt="" style="display: block;margin:auto" class="skillsimg">
@@ -90,8 +90,8 @@
         <div class="do py-3">
             <h1 class="text-uppercase font-staat font-size-34">What can I bring to the table?</h1>
         </div>
-        <div class="row">
-            <div class="col-md-4 col-sm-6 mb-4 text-center">
+        <div class="row" >
+            <div class="col-md-4 col-sm-6 mb-4 text-center" style="display: flex">
                 <div class="panel border p-4" style="min-height:294px ;">
                     <span class="icon text-secondary"><i class="fas fa-laptop fa-3x" style="color: white;"></i></span>
                     <h4 class="font-ram py-4">Web Design</h4>
@@ -100,7 +100,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 mb-4 text-center">
+            <div class="col-md-4 col-sm-6 mb-4 text-center" style="display: flex">
                 <div class="panel border p-4" style="min-height:294px ;">
                     <span class="icon text-secondary"><i class="fas fa-mobile-alt fa-3x" style="color: white;"></i></span>
                     <h4 class="font-ram py-4">Android and PWA Development</h4>
@@ -109,7 +109,7 @@
                     </p>
                 </div>
             </div> 
-            <div class="col-md-4 col-sm-6 mb-4 text-center">
+            <div class="col-md-4 col-sm-6 mb-4 text-center"  style="display: flex">
                 <div class="panel border p-4" style="min-height:294px ;">
                     <span class="icon text-secondary"><i class="fas fa-chart-line fa-3x" style="color: white;"></i></span>
                     <h4 class="font-ram py-4">UX/UI</h4>
@@ -118,7 +118,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 mb-4 text-center">
+            <div class="col-md-4 col-sm-6 mb-4 text-center" style="display: flex">
                 <div class="panel border p-4" style="min-height:294px ;">
                     <span class="icon text-secondary"><i class="fas fa-laptop-code fa-3x" style="color: white;"></i></span>
                     <h4 class="font-ram py-4">C#/.NET</h4>
@@ -127,7 +127,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 mb-4 text-center">
+            <div class="col-md-4 col-sm-6 mb-4 text-center" style="display: flex">
                 <div class="panel border p-4" style="min-height:294px ;" >
                     <span class="icon text-secondary"><i class="fas fa-palette fa-3x" style="color: white;"></i></span>
                     <h4 class="font-ram py-4">Graphic Design</h4>
@@ -136,7 +136,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 mb-4 text-center">
+            <div class="col-md-4 col-sm-6 mb-4 text-center" style="display: flex">
                 <div class="panel border p-4"  style="min-height:294px ;">
                     <span class="icon text-secondary"><i class="fas fa-database fa-3x" style="color: white;"></i></span>
                     <h4 class="font-ram py-4">Database</h4>
@@ -155,16 +155,16 @@
             <h5 class="text-uppercase font-staat font-size-34 ">Selected projects</h5>
            
          </div>
-             <div class="row m-0 py-4 ">
+             <div class="row m-0 py-4">
              
-            <div class="col-sm-4 pl-0 ">
+            <div class="col-sm-4 pl-0 " >
                 <img src="./assets/smartmockups_k9356zhj.png" alt="work1"style="width: 260px;height:520px">
             </div> 
-                <div class="col-sm-4 pl-0 ">
+                <div class="col-sm-4 pl-0 "  style="display: flex">
                 <img src="./assets/smartmockups_k934sh6c.png" alt="work1"style="width: 260px;height:520px">
             </div> 
        
-            <div class="col-sm-4 pl-0">
+            <div class="col-sm-4 pl-0" >
                 <div style="margin: 50% 0px;">
           <H1 class="font-staat font-size-34">WeRollin'</H1>
            <p>An app that connects skaters form the neighbourhood as well as people from all over the world. There is no need to feel like a noob as a beginner skater anymore. Get your WeRollin' App and find your local skating community.</p>
@@ -208,9 +208,9 @@
      <!--#work-->
 
      <!--illustrations-->    <section class="skillbg-light" id="illustrations"  style="padding: 40px 10%;">
-      
-        <h5 class="text-uppercase font-staat font-size-34 ">What do I do apart from coding?</h5>
-   
+      <div class="py-3 px-2">
+        <h1 class="text-uppercase font-staat font-size-34 ">What do I do apart from coding?</h1>
+    </div>
         <div class="illustrations-container">
   <div>
       <img src="./assets/drawing1.jpg" class="illustrationImg" alt="">
@@ -228,15 +228,15 @@
 
      <footer id="footer" class=""  style="padding: 0px 10%;">
 <div id="contact" style="color: white; background-color: black;">
-    <div class="py-4 px-2">
+    <div class="py-3 px-2">
         <h1 class="text-uppercase font-staat font-size-34">Contact Me</h1>
     </div>
     <div class="form-contact contact-row row py-5">
         <div class="about-text col-sm-6">
             <p class="contact-txt font-inter w-70 font-size-27 ">I'm always interested in making cool stuff! If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.</p>            
         </div>
-        <div class="col-sm-6 py-4 px-4">
-        <form class="py-3"  method="POST" action="contactform.php">
+        <div class="col-sm-6 py-3 px-3">
+        <form class=""  method="POST" action="contactform.php">
             <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4 text-center">
                     <input type="text" class="contact txt-area-contact form-control" placeholder="Name" name="name" id="">
@@ -244,32 +244,36 @@
                 <div class="col-md-4 col-sm-6 mb-4 text-center">
                     <input type="email" class="contact txt-area-contact form-control" placeholder="Email" name="email" id=""></div>
             </div>
-            <textarea cols="30" rows="3" class="txt-area-contact form-control my-4" style="resize: none;" name="message" placeholder="Message"></textarea>
-            <button type="submit" name="submit" class="btn" style="background: white; font-weight: bolder;">Send Message</button>
+            <textarea cols="30" rows="4" class="txt-area-contact form-control my-4" style="resize: none;" name="message" placeholder="Message"></textarea>
+            <div class="button_cont" style="align-content: center;"><a class="example_d" href="add-website-here" target="_blank" rel="nofollow noopener">Send Message</a></div>
         </form>
         </div>
     </div>
 </div>
-   <div class="social-icons py-5" style="color:white;display: flex;">
-    
-                   <div class="si-wrapper">
-                    <a href="https://github.com/kalina957" style="height: 30px;width: 30px; color: white" >
-                        <svg class="svg-inline--fa fa-github fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
-                    </a>
-                </div>
-                <div class="si-wrapper">
-                    <a href="https://www.linkedin.com/in/kalina-atanasova-3b013217a/" style="height: 30px;width: 30px;color: white;">
-                        <svg class="svg-inline--fa fa-linkedin fa-w-14" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>
-                    </a>
-                </div class="si-wrapper">
-                <div class="si-wrapper">
-                    <a href="https://www.instagram.com/kalinski.at/" style="height: 30px;width: 30px;color: white;">
-                        <svg class="svg-inline--fa fa-instagram fa-w-14" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>                    </a>
+   <div class="social-icons" style="color:white;display: flex;">
+
+                   <div class="social-icons">
+                    <ul>
+                        <li>
+                          <a href="https://github.com/kalina957">
+                            <i class="fab fa-github"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://www.linkedin.com/in/kalina-atanasova-3b013217a/">
+                            <i class="fab fa-linkedin"></i>
+                          </a>
+                          </li>
+                        <li>
+                          <a href="https://www.instagram.com/kalinski.at/" >
+                            <i class="fab fa-instagram"></i>
+                          </a>
+                          
+                        </li>
+                      </ul>
                     </div>
-                   
      </footer>
-<!-- </div>
-</div> -->
+
 </div>
 </div>
 </div>
