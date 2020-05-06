@@ -20,11 +20,12 @@ if(isset($_POST['submit']))
  //if there is no [.] infront it crashes, dot combines pieces of information in a string
  mail('kalina.at@yahoo.com', 'Comment from user',$msg);
  mail($_POST['email'],'No-Reply email',$msgUser);
+ header("Location: index.php?mailsend");
  //php is sending email to the user and to the website owner at the same time
- echo "<script type='text/javascript'>";
- echo "alert('Thank you for contacting us. You will receive reply in short');";
- echo "window.history.go(-1)"; 
- echo "</script>";
+//  echo "<script type='text/javascript'>";
+//  echo "alert('Thank you for contacting us. You will receive reply in short');";
+//  echo "window.history.go(-1)"; 
+//  echo "</script>";
  //receiving alert that something has happened and everything is fine
     // }
 }
