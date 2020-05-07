@@ -106,10 +106,13 @@ transition: left.5s ease;
     top:0;
     z-index:1;
     display:flex;
-    width: 100%;
     height: 60px;
     color: white;
     background-color: black;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
 }
 .navbar ul{
     display: flex;
@@ -135,11 +138,26 @@ footer{
   
 background-color: blue;
 }
+.work{
+    padding: 40px 10%;
+}
+.img-about{
+    width: 100%;
+}
+.img-me{
+    height: 420px;
+    display: block;
+    margin: 0px;
+    padding:0px;
+}
 .si-wrapper{
     height: 60px;
     width: 60px;
     border-radius: 10%;
     padding: 7px;
+}
+.panel{
+    min-height:294px ;
 }
 #home1{
     display: grid;
@@ -150,16 +168,33 @@ background-color: blue;
     background: black;
     padding: 0 1rem;
 }
+.col-project{
+    max-width: 260px;
+    height:520px;
+}
+.icon-gh{
+    color: #d469d8; 
+    height: 20px;width: 20px;
+}
 #about{
 }
   .contact{
     background-color: #000000;
 }
+#contact{
+    color: white; 
+    background-color: black;
+}
 .skillsimg{
     height: 100%;
     width: 100%;
     padding: 0 20%;
+    display: block;
+    margin:auto;
   } 
+  .col-skills{
+    display: flex;
+  }
   .holding-container{
     width: 100%;
     display:flex;
@@ -259,8 +294,16 @@ background-color: blue;
     position: relative;
     left: 0;
     top: 0;
+    width: fit-content;
+    height: fit-content;
   }
-  
+  .imageInn{
+    width: fit-content;
+  }
+  .image-wrap{
+    display: flex; 
+    justify-content: space-between;
+  }
   .imageBox .hoverImg {
     position: absolute;
     left: 0;
@@ -271,8 +314,12 @@ background-color: blue;
   .imageBox:hover .hoverImg {
     display: block;
   }
+  .icon-skill{
+    color: white;
+  }
   #site-main{
     background-color: #000000;
+    color: white;
   }
 
   .container1 {
@@ -292,7 +339,10 @@ background-color: blue;
   }
   .social-icons{
       padding-bottom: 10px;
+      color:white;
+      display: flex;
   }
+
 .social-icons ul {
     margin: 0;
     padding: 0;
