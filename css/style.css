@@ -48,21 +48,6 @@ body{
 .font-pl{
     font: 'Plaster', cursive;
 }
-.font-al{
-    font-family: 'Alfa Slab One', cursive;
-}
-.font-arch{
-    font-family: 'Archivo Black', sans-serif;
-}
-.font-titi{
-    font-family: 'Titillium Web', sans-serif;
-}
-.font-ps{
-    font-family: 'Press Start 2P', cursive;
-}
-.font-bung{
-    font-family: 'Bungee Shade', cursive;
-}
 .font-size-112{
     font-size: 112px;
 }
@@ -150,19 +135,11 @@ footer{
   
 background-color: blue;
 }
-.skill-heading{
-
-}
 .si-wrapper{
     height: 60px;
     width: 60px;
     border-radius: 10%;
     padding: 7px;
-}
-.si-wrapper:hover{
-}
-@media screen and (max-width:950px){
-    
 }
 #home1{
     display: grid;
@@ -183,7 +160,16 @@ background-color: blue;
     width: 100%;
     padding: 0 20%;
   } 
-@media only screen and (max-width: 600px) {
+  .holding-container{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+  }
+  
+  .wrap-project{
+            margin: 50% 0px;
+}
+@media only screen and (max-width: 700px) {
     .navbar > ul > li {
         margin: 6px;
         
@@ -203,6 +189,13 @@ background-color: blue;
     }
     .form-contact{
         padding:0;
+    }
+    .holding-container{
+        flex-direction: column;
+    }
+    
+    .wrap-project{
+        margin:10% 0px;    
     }
   }
  
@@ -341,13 +334,13 @@ background-color: blue;
   
   .social-icons ul li a:hover::before {
     transform: scale(1.1);
-    box-shadow: 0 0 15px #20bf6b;
+    box-shadow: 0 0 15px#d469d8;
   }
   
   .social-icons ul li a:hover {
-    color: #20bf6b;
-    box-shadow: 0 0 5px #20bf6b;
-    text-shadow: 0 0 5px#20bf6b;
+    color: #d469d8;
+    box-shadow: 0 0 5px #d469d8;
+    text-shadow: 0 0 5px#d469d8;
   }
   .example_d {
     color: white !important;
@@ -361,8 +354,8 @@ background-color: blue;
     font-size: 14px;
     }
     .example_d:hover {
-        color: #20bf6b !important;
+        color: #d469d8 !important;
         border-radius: 50px;
-        border-color: #20bf6b !important;
+        border-color: #d469d8 !important;
         transition: all 0.3s ease 0s;
         }
